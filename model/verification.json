@@ -1,0 +1,50 @@
+[
+  {
+    "check": "No solar, no battery: analytical 24*(1+0.25*9) = 78 L",
+    "passed": true
+  },
+  {
+    "check": "Zero load, empty storage: zero fuel",
+    "passed": true
+  },
+  {
+    "check": "PV surplus charges with efficiency",
+    "passed": true
+  },
+  {
+    "check": "Minimum diesel output charges surplus",
+    "passed": true
+  },
+  {
+    "check": "Sufficient battery turns diesel off",
+    "passed": true
+  },
+  {
+    "check": "Battery power limit forces diesel on",
+    "passed": true
+  },
+  {
+    "check": "Missing fuel curve produces unknown totals",
+    "passed": true
+  },
+  {
+    "check": "Unknown costs refuse ranking",
+    "passed": true
+  },
+  {
+    "check": "Load above generator rating rejected",
+    "passed": true
+  },
+  {
+    "check": "All profiles have equal daily energy 216 kWh",
+    "passed": true
+  },
+  {
+    "check": "Training and held-out profile names disjoint",
+    "passed": true
+  },
+  {
+    "check": "All 1530 seasonal runs: energy balance, SOC, power and generator bounds checked every hour; no unknown fuel totals",
+    "passed": true
+  }
+]

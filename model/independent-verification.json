@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "seasonal_rows": 1530,
+  "holdout_rows": 36,
+  "max_balance_error_kwh": 4.440892098500626e-15,
+  "verification_seconds": 0.056069800004479475,
+  "checks": [
+    "unique complete rows",
+    "cost recomputation",
+    "data split",
+    "analytical diesel-only baseline",
+    "energy and SOC bounds",
+    "independent minimax and baseline choice",
+    "independent holdout losses",
+    "code and input hashes"
+  ]
+}

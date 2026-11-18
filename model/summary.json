@@ -1,0 +1,47 @@
+[
+  {
+    "point": "south",
+    "train_scenarios": 39,
+    "holdout_scenarios": 12,
+    "robust_variant": "pv30_bat40",
+    "baseline_variant": "pv30_bat40",
+    "training_worst_regret_rub": 0.0,
+    "selection_status": "within_assumed_threshold",
+    "holdout_robust_mean_regret_rub": 0.0,
+    "holdout_baseline_mean_regret_rub": 0.0,
+    "holdout_robust_max_regret_rub": 0.0,
+    "holdout_baseline_max_regret_rub": 0.0,
+    "robust_better_scenarios": 0,
+    "robust_worse_scenarios": 0
+  },
+  {
+    "point": "altai",
+    "train_scenarios": 39,
+    "holdout_scenarios": 12,
+    "robust_variant": "pv30_bat40",
+    "baseline_variant": "pv30_bat40",
+    "training_worst_regret_rub": 0.0,
+    "selection_status": "within_assumed_threshold",
+    "holdout_robust_mean_regret_rub": 0.0,
+    "holdout_baseline_mean_regret_rub": 0.0,
+    "holdout_robust_max_regret_rub": 0.0,
+    "holdout_baseline_max_regret_rub": 0.0,
+    "robust_better_scenarios": 0,
+    "robust_worse_scenarios": 0
+  },
+  {
+    "point": "karelia",
+    "train_scenarios": 39,
+    "holdout_scenarios": 12,
+    "robust_variant": "pv30_bat40",
+    "baseline_variant": "pv30_bat40",
+    "training_worst_regret_rub": 10341.648000000045,
+    "selection_status": "within_assumed_threshold",
+    "holdout_robust_mean_regret_rub": 1881.0209999999981,
+    "holdout_baseline_mean_regret_rub": 1881.0209999999981,
+    "holdout_robust_max_regret_rub": 7782.431999999913,
+    "holdout_baseline_max_regret_rub": 7782.431999999913,
+    "robust_better_scenarios": 0,
+    "robust_worse_scenarios": 0
+  }
+]

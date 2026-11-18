@@ -1,0 +1,44 @@
+[
+  {
+    "point": "south",
+    "lat": 44.6,
+    "lon": 40.1,
+    "utc_offset": 3,
+    "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=44.6&lon=40.1&startyear=2005&endyear=2023&raddatabase=PVGIS-ERA5&pvcalculation=1&peakpower=1&loss=14&angle=30&aspect=0&outputformat=json",
+    "file": "pvgis-era5-2005-2023-south.json",
+    "bytes": 15662139,
+    "sha256": "28b4825a18387792b1ecfd72c3cab06f1365302f87c329583bef225af1a3c895",
+    "rows": 166536,
+    "first": "20050101:0030",
+    "last": "20231231:2330",
+    "missing_hours": 0
+  },
+  {
+    "point": "altai",
+    "lat": 51.9,
+    "lon": 85.9,
+    "utc_offset": 7,
+    "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=51.9&lon=85.9&startyear=2005&endyear=2023&raddatabase=PVGIS-ERA5&pvcalculation=1&peakpower=1&loss=14&angle=30&aspect=0&outputformat=json",
+    "file": "pvgis-era5-2005-2023-altai.json",
+    "bytes": 15696225,
+    "sha256": "f2cfaf2de30db82a03c36ff43debcc6cb4e7672531dd6dfae155adb89c68a1d5",
+    "rows": 166536,
+    "first": "20050101:0030",
+    "last": "20231231:2330",
+    "missing_hours": 0
+  },
+  {
+    "point": "karelia",
+    "lat": 61.8,
+    "lon": 34.3,
+    "utc_offset": 3,
+    "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=61.8&lon=34.3&startyear=2005&endyear=2023&raddatabase=PVGIS-ERA5&pvcalculation=1&peakpower=1&loss=14&angle=30&aspect=0&outputformat=json",
+    "file": "pvgis-era5-2005-2023-karelia.json",
+    "bytes": 15620901,
+    "sha256": "ccedfc6a380b9cb37be5f7b1272343f6644aab862eea6666c0598b7f9a2bb6aa",
+    "rows": 166536,
+    "first": "20050101:0030",
+    "last": "20231231:2330",
+    "missing_hours": 0
+  }
+]

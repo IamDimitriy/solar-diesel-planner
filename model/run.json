@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-11-09T11:35:29.610027+00:00",
+  "finished_utc": "2026-11-09T11:35:53.317382+00:00",
+  "calculation_seconds": 23.711895600004937,
+  "seasonal_runs": 1530,
+  "hourly_steps": 5618160,
+  "code_sha256": "08fee24728c4060bcd2d310a36ea00a030bf3a748c967afb1965ce7c5663ec95",
+  "parameters_sha256": "d8e24f4b5a525a8a0f1ebe567b5534907899c023b201187bd4f5121dedaf2a2d",
+  "tokens_measured": false
+}

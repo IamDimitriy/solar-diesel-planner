@@ -1,0 +1,119 @@
+{
+  "status": "Учебные допущения; не измерения объекта и не цены поставщика",
+  "protocol_fixed_at": "2026-11-09T14:35:28.629278+03:00",
+  "train_years": [
+    2005,
+    2017
+  ],
+  "holdout_years": [
+    2018,
+    2023
+  ],
+  "baseline_year": 2017,
+  "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "generator_kw": 20,
+  "generator_min_kw": 5,
+  "fuel_curve_lph": [
+    [
+      5,
+      2.25
+    ],
+    [
+      20,
+      6.0
+    ]
+  ],
+  "charge_efficiency": 0.95,
+  "discharge_efficiency": 0.95,
+  "battery_power_per_kwh": 0.5,
+  "initial_usable_energy_kwh": 0,
+  "fuel_rub_per_litre": 80,
+  "pv_season_rub_per_kw": 4000,
+  "battery_season_rub_per_kwh": 1500,
+  "user_max_regret_rub": 20000,
+  "profiles": {
+    "flat": {
+      "set": "train",
+      "start": 0,
+      "hours": 24,
+      "high_kw": 9,
+      "low_kw": 9
+    },
+    "day": {
+      "set": "train",
+      "start": 8,
+      "hours": 12,
+      "high_kw": 12,
+      "low_kw": 6
+    },
+    "evening": {
+      "set": "train",
+      "start": 18,
+      "hours": 12,
+      "high_kw": 12,
+      "low_kw": 6
+    },
+    "morning_unseen": {
+      "set": "holdout",
+      "start": 4,
+      "hours": 12,
+      "high_kw": 14,
+      "low_kw": 4
+    },
+    "late_unseen": {
+      "set": "holdout",
+      "start": 14,
+      "hours": 12,
+      "high_kw": 14,
+      "low_kw": 4
+    }
+  },
+  "variants": [
+    [
+      0,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      10,
+      40
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      20,
+      40
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      30,
+      20
+    ],
+    [
+      30,
+      40
+    ]
+  ]
+}

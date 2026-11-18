@@ -1,0 +1,12 @@
+{
+  "seasonal_runs": 24021,
+  "calculation_seconds": 291.674943799997,
+  "code_sha256": "3cddcf462b21e8b710e1a100fdcf03ba744728b281b6a42c328bd21119711ae0",
+  "model_sha256": "08fee24728c4060bcd2d310a36ea00a030bf3a748c967afb1965ce7c5663ec95",
+  "parameters_sha256": "cd5aee481571f37431d829ba05a5f9d33035c47002dcd01493568cba4c19f3b4",
+  "source_sha256": [
+    "28b4825a18387792b1ecfd72c3cab06f1365302f87c329583bef225af1a3c895",
+    "f2cfaf2de30db82a03c36ff43debcc6cb4e7672531dd6dfae155adb89c68a1d5",
+    "ccedfc6a380b9cb37be5f7b1272343f6644aab862eea6666c0598b7f9a2bb6aa"
+  ]
+}

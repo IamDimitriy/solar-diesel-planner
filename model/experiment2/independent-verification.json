@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "seasonal_runs": 24021,
+  "holdout_scenarios": 36,
+  "profile_error_scenarios": 114,
+  "verification_seconds": 0.1664569999993546,
+  "max_balance_error_kwh": 2.842170943040401e-14,
+  "checks": [
+    "unique rows",
+    "model and parameter hashes",
+    "costs and analytical diesel case",
+    "train and holdout separation",
+    "energy bounds",
+    "independent selections and losses",
+    "training optima and both selections below grid upper boundaries",
+    "price of wrong selection and fraction of selected fuel cost"
+  ]
+}

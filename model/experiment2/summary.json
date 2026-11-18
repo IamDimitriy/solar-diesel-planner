@@ -1,0 +1,47 @@
+[
+  {
+    "point": "south",
+    "pv_max": 120,
+    "bat_max": 240,
+    "variants": 157,
+    "upper_boundary_reached": false,
+    "robust_variant": "pv50_bat140",
+    "baseline_variant": "pv50_bat120",
+    "training_worst_regret_rub": 41869.18599999999,
+    "selection_status": "no_clear_choice",
+    "robust_mean": 22487.261833333338,
+    "robust_max": 45916.359999999986,
+    "baseline_mean": 24916.115166666674,
+    "baseline_max": 32668.51000000001
+  },
+  {
+    "point": "altai",
+    "pv_max": 120,
+    "bat_max": 240,
+    "variants": 157,
+    "upper_boundary_reached": false,
+    "robust_variant": "pv50_bat120",
+    "baseline_variant": "pv60_bat120",
+    "training_worst_regret_rub": 35473.462,
+    "selection_status": "no_clear_choice",
+    "robust_mean": 19237.14716666665,
+    "robust_max": 26972.52000000002,
+    "baseline_mean": 16954.090333333337,
+    "baseline_max": 27698.505999999994
+  },
+  {
+    "point": "karelia",
+    "pv_max": 120,
+    "bat_max": 240,
+    "variants": 157,
+    "upper_boundary_reached": false,
+    "robust_variant": "pv60_bat120",
+    "baseline_variant": "pv60_bat120",
+    "training_worst_regret_rub": 29762.603999999934,
+    "selection_status": "no_clear_choice",
+    "robust_mean": 17463.393999999986,
+    "robust_max": 36074.08799999999,
+    "baseline_mean": 17463.393999999986,
+    "baseline_max": 36074.08799999999
+  }
+]
